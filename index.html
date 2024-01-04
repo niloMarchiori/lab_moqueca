@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="respstyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo_moqueca4.png" type="image/x-icon">    
+    <title>Moqueca</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body onresize="mudouTamanho()">
+    <div class="container_menu"> 
+    <img class="logo" src="images/logo_moqueca3.png" alt="">
+    <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <div id="main_nav">
+            <ul class="main_menu">
+                <li><a href="https://www.google.com.br/?hl=pt-BR">HOME</a></li>
+                <li><a href="https://www.google.com.br/?hl=pt-BR">SOBRE NÓS</a></li>
+                <li><a href="https://www.google.com.br/?hl=pt-BR">TRABALHOS</a></li>
+                <li><a href="https://www.google.com.br/?hl=pt-BR">MEMBROS</a></li>
+                <li><a href="https://www.google.com.br/?hl=pt-BR">CONTATOS</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container_intro">
+        <div class="background_intro">
+            <div class="a_intro"><a>Bem vindo ao</a></div>
+            <div class="h1_intro">
+                <h1>Materials and Molecular Quantum Electronic Calculations!</h1></div>
+                    <div class="p_intro"><p>Aqui você encontrará nossos trabalhos mais recentes, assim como nossos pesquisadores e ramos de pesquisa. Além de ficar por dentro dos eventos que organizamos.</p></div>
+                        <div class="button_intro"><a href="https://www.google.com.br/" class="button">Saiba mais →</a> </div>
+        </div>
+    </div>
+    <div class="container_aboutus"> 
+        <div class="text_aboutus">
+            <a>Conheça o nosso grupo</a>
+                <h2>MOQUECA</h2>
+                <p>"Lorem ipsum dolor sit amet. Qui reprehenderit incidunt in illo deleniti et perspiciatis voluptas At error mollitia. 33 quas consequatur aut dignissimos dolore et dolore temporibus sit soluta ipsam.<br>
+                Qui molestias voluptatem aut eveniet deserunt ea reprehenderit neque sit consectetur natus sed veniam quia ab provident facere ea commodi omnis? Eos itaque tempore ea nisi eius aut suscipit itaque At laboriosam aliquid.<br>
+                A veritatis exercitationem quo beatae autem qui neque magni At ducimus magnam qui blanditiis repellendus. Ut sapiente quia qui excepturi rerum et libero nesciunt et explicabo modi rem deserunt suscipit aut distinctio itaque et necessitatibus voluptatum? Et magnam excepturi qui odio tenetur ut dolorem vitae aut aliquam temporibus qui rerum inventore ut optio molestias et tenetur nobis."</p>
+        </div>
+            <div class="image_aboutus">
+                <img src="images/cristal_azul1.jpg">
+            </div>
+    </div>
+    <div class="container_contact">
+        <h2>ENTRE EM CONTATO CONOSCO</h2>
+        <a>Receba comunicados de eventos e palestras em nossas redes sociais. Entre em contato conosco pelo nosso E-mail.</a>
+        <div class="contact">
+        <div class="email"> 
+            <form action="https://formsubmit.co/luana8mai@gmail.com" method="POST" class="form">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" placeholder="Mensagem" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="media">
+            <div class="media__inf">
+                <div>
+                <img src="images/icons8-marcador-50.png">
+                </div> 
+                <div><p>ENDEREÇO</br>Universidade Federal do Espírito sando</p>
+                </div>
+            </div>
+            <div class="media__inf">
+                <div><img src="images/icons8-nova-mensagem-90.png">
+                </div> 
+                <div><p>E-MAIL</br>info@domain.com</p></div>
+            </div>
+            <div class="media__inf">
+                <div>
+                <img src="images/icons8-instagram-96.png">
+                </div> 
+                <div><p>INSTAGRAM</br>@moquecaufes</p></div>
+            </div>
+            <div class="media__inf">
+                <div>
+                <img src="images/icons8-twitter-30.png">
+                </div> 
+                <div><p>TWITTER</br>moquecaufes</p></div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script>
+    function mudouTamanho(){
+        if (window.innerWidth>=1025){
+            main_nav.style.display = 'block'
+        } else{
+            main_nav.style.display = 'none'
+        }
+    }
+
+    function clickMenu() {
+        if (main_nav.style.display == 'block') {
+            main_nav.style.display = 'none'
+        } else{
+            main_nav.style.display = 'block'
+        }
+}
+</script>
+    </body>
+</html>

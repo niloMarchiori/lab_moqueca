@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    }
+.logo{        
+    float: left;
+    height: 80px;
+    padding: 20px;
+
+}
+.container_menu{
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main_nav{
+    display: none;
+    margin-top: 520px;
+    width: 100%;
+    position: absolute;
+}
+.main_menu{
+    list-style-type: none;
+}
+.main_menu a{
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(39, 72, 172);
+    color: aliceblue;
+    font-weight: 400;
+}
+.material-symbols-outlined{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 50px;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.material-symbols-outlined:hover{
+    color: rgb(39, 72, 172);
+}
+.container_intro{
+    background:url(images/background_2.jpg) ;
+    height: 700px;
+}
+.background_intro{
+    padding-top: 60px;
+    margin-left: 3%;
+    margin-right: 2%
+}
+.a_intro{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+}
+.h1_intro{
+    color: #ffffff;
+    margin-top: 15px;
+    font-family: 'Lexend Deca',  sans-serif;
+    font-size: 16px;
+}
+.p_intro{
+    margin-top: 5%;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.button_intro{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #ffffff;
+    width: 100%;
+    font-size: 14px;
+}
+.button {
+    background-color: rgb(5, 105, 199);
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    text-decoration: none;
+}
+.button:hover {
+    transition: 0.5s;
+    background-color: #6b6b6b6e;
+}
+
+.container_aboutus{
+    padding-right:10px;
+    margin-top: 10%;
+    margin-left: 2%;
+
+}
+.text_aboutus h2{
+    font-size: 40px;
+    color: #312f50;
+    padding: 10px 0px 30px;
+}
+.text_aboutus a{
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+}
+.text_aboutus p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+}
+.image_aboutus{
+    padding-top: 10%;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+}
+.image_aboutus img{
+    width: 100%;
+}
+.container_contact{
+    text-align: center;
+    margin-top: 10%;
+    background-color: #81818123;
+
+    padding: 3rem 2rem 1rem;
+}
+.container_contact h2{
+    color: #000000;
+    font-family: 'Lexend Deca',  sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.container_contact a{
+    color: rgb(126, 126, 126);
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: 6%;
+    align-items: center;
+}
+.form input,
+.form textarea,
+.form button {
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #c7c7c7;
+    background-color: #ffffff23;
+    height: 20px;
+    padding: 10px;
+}
+.form textarea{
+    resize: vertical;
+    min-height:  10rem;
+    padding: 10px;
+}
+.form button{
+    border: 0px;
+    height: 40px;
+    background:  rgba(0, 41, 177, 0.808);
+    color: #ffffff;
+}
+.form button:hover{
+    background-color: #181818d3;
+    transition: 0.5s;
+}
+
+.media{
+    padding: 50px 30px 20px;    
+    margin-top: 30px;
+    background-color: rgba(0, 41, 177, 0.808);
+
+}
+.media__inf{
+display: flex;
+margin-bottom: 30px;
+}
+.media__inf p{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.media__inf img{
+    width: 30px;
+}
